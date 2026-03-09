@@ -1,0 +1,37 @@
+{
+  "name": "mern-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "check": "node --check index.js && node --check config/db.js && node --check controllers/productController.js && node --check controllers/userController.js && node --check middleware/auth.js && node --check models/productModel.js && node --check models/userModel.js && node --check routes/productRoute.js && node --check routes/userRoute.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nairx/mern-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nairx/mern-backend/issues"
+  },
+  "homepage": "https://github.com/nairx/mern-backend#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.2",
+    "nodemon": "^3.1.14"
+  }
+}
