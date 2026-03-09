@@ -99,6 +99,16 @@ GitHub Actions workflow is defined at:
 It runs on push and pull requests, installs dependencies, and performs JavaScript syntax checks on all `.js` files.
 It also executes `npm test`.
 
+## Tests
+
+Run tests locally with:
+
+```bash
+npm test
+```
+
+The repository includes a starter test file at `test/models.test.js` that validates key Mongoose schema constraints.
+
 ## Deployment
 
 `vercel.json` is included for Vercel Node deployment.
