@@ -4,10 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "check": "node --check index.js && node --check config/db.js && node --check controllers/productController.js && node --check controllers/userController.js && node --check middleware/auth.js && node --check models/productModel.js && node --check models/userModel.js && node --check routes/productRoute.js && node --check routes/userRoute.js",
-    "test": "node --test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
